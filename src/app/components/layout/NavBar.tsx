@@ -31,7 +31,7 @@ export default function NavBar () {
         </li>
         <li>
           <Link href="/dicom-viewer" className="hover:text-gray-300" style={{ marginLeft: '20px' }}>
-            Dicom Viewer (Pagination)
+            Dicom Viewer
           </Link>
         </li>
         <li>

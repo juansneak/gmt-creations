@@ -1,9 +1,9 @@
-import DicomViewerPagination from "../components/common/DicomViewerPagination";
+import DicomViewerPro from "../components/common/DicomViewerPro";
 
 export default function DicomViewer () {
   return (
     <section>
-      <DicomViewerPagination />
+      <DicomViewerPro />
     </section>
   )
 }
