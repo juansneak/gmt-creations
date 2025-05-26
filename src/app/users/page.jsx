@@ -29,7 +29,7 @@ const Page = () => {
     <section style={{ padding: '20px'}}>
       <button
         type="button"
-        className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700"
+        className="bg-sky-500 text-white font-bold py-2 px-4 rounded hover:bg-sky-700"
         onClick={() => setShowModal(true)}
         style={{ marginBottom: '20px' }}
       >
@@ -45,7 +45,7 @@ const Page = () => {
               type="text"
               name={field}
               placeholder={`Enter ${field}`}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent"
               value={newUser[field]}
               onChange={handleInputChange}
               style={{ marginBottom: '10px' }}
@@ -53,7 +53,7 @@ const Page = () => {
           ))}
           <button
             type="button"
-            className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700"
+            className="bg-sky-500 text-white font-bold py-2 px-4 rounded hover:bg-sky-700"
             onClick={handleAddUser}
           >
             Accept

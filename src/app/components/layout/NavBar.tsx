@@ -1,51 +1,53 @@
+"use client";
+
 import Link from 'next/link';
 
 export default function NavBar () {
+
+  const forceReload = (url) => {
+    window.location.href = `${url}?t=${Date.now()}`;
+  };
+
   return (
-    <nav className="bg-blue-600 p-4">
+    <nav className="bg-sky-600 p-4">
       <ul className="flex space-x-4 text-white">
         <li>
-          <Link href="/" className="hover:text-gray-300">
+          <Link href="/" className="hover:text-sky-900">
             Home
           </Link>
         </li>
-        {/*<li>
-          <Link href="/albums" className="hover:text-gray-300">
-            Albums
-          </Link>
-        </li>*/}
-        {/*<li>
-          <Link href="/posts" className="hover:text-gray-300">
-            Posts
-          </Link>
-        </li>*/}
         <li>
-          <Link href="/users" className="hover:text-gray-300" style={{ marginLeft: '20px' }}>
+          <Link href="/users" className="hover:text-sky-900" style={{ marginLeft: '20px' }}>
             Users
           </Link>
         </li>
         <li>
-          <Link href="/stl-viewer" className="hover:text-gray-300" style={{ marginLeft: '20px' }}>
-            STL Viewer
+          <Link href="/stl-visualizer" className="hover:text-sky-900" style={{ marginLeft: '20px' }}>
+            STL Visualizer
           </Link>
         </li>
         <li>
-          <Link href="/dicom-viewer" className="hover:text-gray-300" style={{ marginLeft: '20px' }}>
-            Dicom Viewer
+        </li>
+        <li>
+          <Link href="/dicom-visualizer" className="hover:text-sky-900" style={{ marginLeft: '20px' }}>
+            Dicom Visualizer
           </Link>
         </li>
         <li>
-          <Link href="/dicom-viewer2" className="hover:text-gray-300" style={{ marginLeft: '20px' }}>
-            Dicom Viewer (Series)
-          </Link>
+          <a
+            href="#"
+            className="hover:text-sky-900"
+            style={{ marginLeft: '20px' }}
+            onClick={(e) => {
+              e.preventDefault();
+              forceReload('/dicom-visualizer-mpr');
+            }}
+          >
+            Dicom Visualizer (MPR)
+          </a>
         </li>
-        {/*<li>
-          <Link href="/about" className="hover:text-gray-300" style={{ marginLeft: '20px' }}>
-            About
-          </Link>
-        </li>*/}
         <li>
-          <Link href="/contact" className="hover:text-gray-300" style={{ marginLeft: '20px' }}>
+          <Link href="/contact" className="hover:text-sky-900" style={{ marginLeft: '20px' }}>
             Contact
           </Link>
         </li>

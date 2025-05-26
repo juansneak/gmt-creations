@@ -1,9 +1,9 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/users/page": "app/users/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/dicom-viewer/page": "app/dicom-viewer/page.js",
-  "/stl-viewer/page": "app/stl-viewer/page.js",
+  "/stl-visualizer/page": "app/stl-visualizer/page.js",
   "/page": "app/page.js",
-  "/dicom-viewer2/page": "app/dicom-viewer2/page.js"
+  "/users/page": "app/users/page.js",
+  "/dicom-visualizer-mpr/page": "app/dicom-visualizer-mpr/page.js",
+  "/dicom-visualizer/page": "app/dicom-visualizer/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

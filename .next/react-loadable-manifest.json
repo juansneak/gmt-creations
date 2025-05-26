@@ -6,5 +6,59 @@
   "../node_modules/@react-three/drei/web/FaceLandmarker.js -> @mediapipe/tasks-vision": {
     "id": "../node_modules/@react-three/drei/web/FaceLandmarker.js -> @mediapipe/tasks-vision",
     "files": []
+  },
+  "../packages/dicomImageLoader/dist/esm/shared/decoders/decodeJPEGBaseline12Bit-js.js -> ../../codecs/jpeg": {
+    "id": "../packages/dicomImageLoader/dist/esm/shared/decoders/decodeJPEGBaseline12Bit-js.js -> ../../codecs/jpeg",
+    "files": [
+      "static/chunks/_app-pages-browser_packages_dicomImageLoader_dist_esm_codecs_jpeg_js.js"
+    ]
+  },
+  "../packages/dicomImageLoader/dist/esm/shared/decoders/decodeJPEGLossless.js -> jpeg-lossless-decoder-js": {
+    "id": "../packages/dicomImageLoader/dist/esm/shared/decoders/decodeJPEGLossless.js -> jpeg-lossless-decoder-js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_jpeg-lossless-decoder-js_release_lossless_js.js"
+    ]
+  },
+  "../packages/polymorphic-segmentation/dist/esm/workers/polySegConverters.js -> @icr/polyseg-wasm": {
+    "id": "../packages/polymorphic-segmentation/dist/esm/workers/polySegConverters.js -> @icr/polyseg-wasm",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_icr_polyseg-wasm_dist_index_js.js"
+    ]
+  },
+  "app/components/common/DicomBasic.jsx -> cornerstone-core": {
+    "id": "app/components/common/DicomBasic.jsx -> cornerstone-core",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_cornerstone-core_dist_cornerstone_js.js"
+    ]
+  },
+  "app/components/common/DicomBasic.jsx -> cornerstone-wado-image-loader": {
+    "id": "app/components/common/DicomBasic.jsx -> cornerstone-wado-image-loader",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_cornerstone-wado-image-loader_dist_cornerstoneWADOImageLoader-b1fbcf.js"
+    ]
+  },
+  "app/components/common/DicomBasic.jsx -> dicom-parser": {
+    "id": "app/components/common/DicomBasic.jsx -> dicom-parser",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_dicom-parser_dist_dicomParser_min_js.js"
+    ]
+  },
+  "app/dicom-visualizer-mpr/page.jsx -> ../utils/demo/helpers": {
+    "id": "app/dicom-visualizer-mpr/page.jsx -> ../utils/demo/helpers",
+    "files": [
+      "static/chunks/_app-pages-browser_src_app_utils_demo_helpers_index_js.js"
+    ]
+  },
+  "app/dicom-visualizer-mpr/page.jsx -> @cornerstonejs/core": {
+    "id": "app/dicom-visualizer-mpr/page.jsx -> @cornerstonejs/core",
+    "files": [
+      "static/chunks/_app-pages-browser_packages_core_dist_esm_index_js.js"
+    ]
+  },
+  "app/dicom-visualizer-mpr/page.jsx -> @cornerstonejs/tools": {
+    "id": "app/dicom-visualizer-mpr/page.jsx -> @cornerstonejs/tools",
+    "files": [
+      "static/chunks/_app-pages-browser_packages_tools_dist_esm_index_js.js"
+    ]
   }
 }

@@ -6,7 +6,7 @@ import { useLoader } from "@react-three/fiber";
 import { STLLoader } from "three-stdlib";
 
 function STLModel() {
-  const geometry = useLoader(STLLoader, "/assets/lower_jaw.stl");
+  const geometry = useLoader(STLLoader, "/assets/lower_jaw.STL");
   
   return (
     <mesh geometry={geometry} scale={0.1} position={[0, -1, 0]}>

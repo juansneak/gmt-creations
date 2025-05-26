@@ -1,3 +1,14 @@
+# Ignore all node_modules folders
 node_modules/
+
+# Ignore the .next folder
 .next
+
+# Ignore the public folder
 public/
+
+# Ignore node_modules and dist inside any subfolder of packages
+/packages/**/node_modules/
+/packages/**/dist/
+
+/src/assets/

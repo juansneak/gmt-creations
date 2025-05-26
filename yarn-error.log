@@ -1,0 +1,83 @@
+Arguments: 
+  /Users/juanmorantes/.nvm/versions/node/v20.18.3/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/juanmorantes/.nvm/versions/node/v20.18.3/bin:/Applications/VirtualBox.app/Contents/MacOS:/usr/local/opt/php@8.0/bin:/Users/juanmorantes/google-cloud-sdk/bin:/Users/juanmorantes/.nodenv/shims:/Users/juanmorantes/.rvm/gems/ruby-2.7.5/bin:/Users/juanmorantes/.rvm/gems/ruby-2.7.5@global/bin:/Users/juanmorantes/.rvm/rubies/ruby-2.7.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/juanmorantes/.composer/vendor/phalcon/devtools:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/juanmorantes/Documents/gmt-creations/node_modules/.bin:/Users/juanmorantes/.rvm/bin:/Users/juanmorantes/Library/Android/sdk/emulator:/Users/juanmorantes/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.18.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/Users/juanmorantes/Documents/gmt-creations/node_modules/@cornerstonejs/docs/node_modules/prism-react-renderer/node_modules'
+
+npm manifest: 
+  {
+    "name": "gmt-creati",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "node_modules/.bin/next dev",
+      "build": "node_modules/.bin/next build",
+      "start": "node_modules/.bin/next start",
+      "lint": "node_modules/.bin/next lint"
+    },
+    "dependencies": {
+      "@cornerstonejs/polymorphic-segmentation": "^3.10.26",
+      "@cornerstonejs/streaming-image-volume-loader": "^1.86.1",
+      "@cornerstonejs/adapters": "file:./packages/adapters",
+      "@cornerstonejs/ai": "file:./packages/ai",
+      "@cornerstonejs/core": "file:./packages/core",
+      "@cornerstonejs/dicom-image-loader": "file:./packages/dicomImageLoader",
+      "@cornerstonejs/docs": "file:./packages/docs",
+      "@cornerstonejs/labelmap-interpolation": "file:./packages/labelmap-interpolation",
+      "@cornerstonejs/nifti-volume-loader": "file:./packages/nifti-volume-loader",
+      "@cornerstonejs/polymorphic-segmentation": "file:./packages/polymorphic-segmentation",
+      "@cornerstonejs/tools": "file:./packages/tools",
+      "@icr/polyseg-wasm": "^0.4.0",
+      "@kitware/vtk.js": "^32.12.1",
+      "@react-three/drei": "^9.122.0",
+      "@react-three/fiber": "^8.18.0",
+      "@tanstack/react-query": "^5.56.2",
+      "cornerstone-core": "^2.6.1",
+      "cornerstone-tools": "^6.0.10",
+      "cornerstone-wado-image-loader": "^4.13.2",
+      "dcmjs": "^0.38.1",
+      "dicom-parser": "^1.8.21",
+      "dicomweb-client": "^0.11.1",
+      "i18next": "^23.15.1",
+      "next": "14.2.13",
+      "next-i18next": "^15.3.1",
+      "patch-package": "^8.0.0",
+      "react": "^18",
+      "react-dom": "^18",
+      "react-i18next": "^15.0.2",
+      "resemblejs": "^5.0.0",
+      "three": "^0.173.0",
+      "three-stdlib": "^2.35.13"
+    },
+    "devDependencies": {
+      "@cornerstonejs/calculate-suv": "github:cornerstonejs/calculate-suv",
+      "@tanstack/eslint-plugin-query": "^5.58.1",
+      "@types/node": "^20",
+      "@types/react": "^18",
+      "@types/react-dom": "^18",
+      "autoprefixer": "^10.4.20",
+      "eslint": "^8",
+      "eslint-config-next": "14.2.13",
+      "postcss": "^8.5.3",
+      "tailwindcss": "^3.4.17",
+      "typescript": "^5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
